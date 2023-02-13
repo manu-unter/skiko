@@ -310,7 +310,7 @@ actual open class SkiaLayer internal constructor(
                 redrawer = renderFactory.createRedrawer(this, renderApi, analytics, properties)
                 redrawer?.syncSize()
             } catch (e: RenderException) {
-                println(e.message)
+                Logger.warn("Fallback to next API: ${e.message}")
                 thrown = true
             }
         } while (thrown && fallbackRenderApiQueue.isNotEmpty())
@@ -527,7 +527,8 @@ actual open class SkiaLayer internal constructor(
         val pictureHeight = (height * contentScale).toInt().coerceAtLeast(0)
 
         val bounds = Rect.makeWH(pictureWidth.toFloat(), pictureHeight.toFloat())
-        val canvas = pictureRecorder!!.beginRecording(bounds)
+        val pictureRecorder = pictureRecorder!!
+        val canvas = pictureRecorder.beginRecording(bounds)
 
         // clipping
         for (component in clipComponents) {
@@ -542,10 +543,11 @@ actual open class SkiaLayer internal constructor(
         }
 
         // we can dispose layer during onRender
-        if (!isDisposed) {
+        // or even dispose it and pack it again
+        if (!isDisposed && !pictureRecorder.isClosed) {
             synchronized(pictureLock) {
                 picture?.instance?.close()
-                val picture = pictureRecorder!!.finishRecordingAsPicture()
+                val picture = pictureRecorder.finishRecordingAsPicture()
                 this.picture = PictureHolder(picture, pictureWidth, pictureHeight)
             }
         }
@@ -560,7 +562,7 @@ actual open class SkiaLayer internal constructor(
             // ignore
         } catch (e: RenderException) {
             if (!isDisposed) {
-                println(e.message)
+                Logger.warn("Exception in draw scope: ${e.message}")
                 findNextWorkingRenderApi()
                 redrawer?.redrawImmediately()
             }
