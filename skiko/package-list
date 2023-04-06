@@ -1717,11 +1717,11 @@ $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeMatrixConvolution/#
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeMatrixTransform/#org.jetbrains.skia.Matrix33#org.jetbrains.skia.SamplingMode#org.jetbrains.skia.ImageFilter?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-matrix-transform.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeMerge/#kotlin.Array[org.jetbrains.skia.ImageFilter?]#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-merge.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeOffset/#kotlin.Float#kotlin.Float#org.jetbrains.skia.ImageFilter?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-offset.html
-$dokka.location:org.jetbrains.skia/ImageFilter.Companion/makePaint/#org.jetbrains.skia.Paint?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-paint.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makePointLitDiffuse/#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Int#kotlin.Float#kotlin.Float#org.jetbrains.skia.ImageFilter?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-point-lit-diffuse.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makePointLitSpecular/#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Int#kotlin.Float#kotlin.Float#kotlin.Float#org.jetbrains.skia.ImageFilter?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-point-lit-specular.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeRuntimeShader/#org.jetbrains.skia.RuntimeShaderBuilder#kotlin.Array[kotlin.String]#kotlin.Array[org.jetbrains.skia.ImageFilter?]/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-runtime-shader.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeRuntimeShader/#org.jetbrains.skia.RuntimeShaderBuilder#kotlin.String#org.jetbrains.skia.ImageFilter?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-runtime-shader.html
+$dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeShader/#org.jetbrains.skia.Shader#kotlin.Boolean#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-shader.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeSpotLitDiffuse/#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Int#kotlin.Float#kotlin.Float#org.jetbrains.skia.ImageFilter?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-spot-lit-diffuse.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeSpotLitSpecular/#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Float#kotlin.Int#kotlin.Float#kotlin.Float#kotlin.Float#org.jetbrains.skia.ImageFilter?#org.jetbrains.skia.IRect?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-spot-lit-specular.html
 $dokka.location:org.jetbrains.skia/ImageFilter.Companion/makeTile/#org.jetbrains.skia.Rect#org.jetbrains.skia.Rect#org.jetbrains.skia.ImageFilter?/PointingToDeclaration/skiko/org.jetbrains.skia/-image-filter/-companion/make-tile.html
@@ -1847,8 +1847,6 @@ $dokka.location:org.jetbrains.skia/Paint/blendMode/#/PointingToDeclaration/skik
 $dokka.location:org.jetbrains.skia/Paint/color/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/color.html
 $dokka.location:org.jetbrains.skia/Paint/color4f/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/color4f.html
 $dokka.location:org.jetbrains.skia/Paint/colorFilter/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/color-filter.html
-$dokka.location:org.jetbrains.skia/Paint/getFillPath/#org.jetbrains.skia.Path#org.jetbrains.skia.Rect?#kotlin.Float/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/get-fill-path.html
-$dokka.location:org.jetbrains.skia/Paint/getFillPath/#org.jetbrains.skia.Path/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/get-fill-path.html
 $dokka.location:org.jetbrains.skia/Paint/hasNothingToDraw/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/has-nothing-to-draw.html
 $dokka.location:org.jetbrains.skia/Paint/imageFilter/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/image-filter.html
 $dokka.location:org.jetbrains.skia/Paint/isAntiAlias/#/PointingToDeclaration/skiko/org.jetbrains.skia/-paint/is-anti-alias.html
@@ -2519,6 +2517,7 @@ $dokka.location:org.jetbrains.skiko//loadBytesFromPath/#kotlin.String/PointingTo
 $dokka.location:org.jetbrains.skiko//onContentScaleChanged/#/PointingToDeclaration/skiko/org.jetbrains.skiko/on-content-scale-changed.html
 $dokka.location:org.jetbrains.skiko//orderEmojiAndSymbolsPopup/#/PointingToDeclaration/skiko/org.jetbrains.skiko/order-emoji-and-symbols-popup.html
 $dokka.location:org.jetbrains.skiko//setSystemLookAndFeel/#/PointingToDeclaration/skiko/org.jetbrains.skiko/set-system-look-and-feel.html
+$dokka.location:org.jetbrains.skiko//setupSkikoLoggerFactory/#kotlin.Function0[org.jetbrains.skiko.SkikoLoggerInterface]/PointingToDeclaration/skiko/org.jetbrains.skiko/setup-skiko-logger-factory.html
 $dokka.location:org.jetbrains.skiko//toBitmap/java.awt.image.BufferedImage#/PointingToDeclaration/skiko/org.jetbrains.skiko/to-bitmap.html
 $dokka.location:org.jetbrains.skiko//toBufferedImage/org.jetbrains.skia.Bitmap#/PointingToDeclaration/skiko/org.jetbrains.skiko/to-buffered-image.html
 $dokka.location:org.jetbrains.skiko//toImage/java.awt.image.BufferedImage#/PointingToDeclaration/skiko/org.jetbrains.skiko/to-image.html
@@ -2533,14 +2532,13 @@ $dokka.location:org.jetbrains.skiko//toSkikoEvent/#java.awt.event.MouseWheelEven
 $dokka.location:org.jetbrains.skiko//toSkikoEvent/#org.w3c.dom.events.KeyboardEvent#org.jetbrains.skiko.SkikoKeyboardEventKind/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoEvent/#org.w3c.dom.events.MouseEvent#org.jetbrains.skiko.SkikoPointerEventKind/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoGestureDirection/#[Error type: Unresolved type for UISwipeGestureRecognizerDirection]/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-gesture-direction.html
-$dokka.location:org.jetbrains.skiko//toSkikoGestureEvent/#android.view.MotionEvent#kotlin.Float/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-gesture-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoGestureState/#[Error type: Unresolved type for UIGestureRecognizerState]/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-gesture-state.html
 $dokka.location:org.jetbrains.skiko//toSkikoKeyboardEvent/#[Error type: Unresolved type for UIPress]#[Error type: Unresolved type for SkikoKeyboardEventKind]/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-keyboard-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoKeyboardEvent/#android.view.KeyEvent#kotlin.Int#org.jetbrains.skiko.SkikoKeyboardEventKind/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-keyboard-event.html
+$dokka.location:org.jetbrains.skiko//toSkikoPointerEvent/#android.view.MotionEvent#kotlin.Float/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-pointer-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoScaleGestureEvent/#android.view.MotionEvent#kotlin.Double#org.jetbrains.skiko.SkikoGestureEventState#kotlin.Float/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-scale-gesture-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoScrollEvent/#[Error type: Unresolved type for NSEvent]#[Error type: Unresolved type for NSView]/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-scroll-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoScrollEvent/#org.w3c.dom.events.WheelEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-scroll-event.html
-$dokka.location:org.jetbrains.skiko//toSkikoTouchEvent/#android.view.MotionEvent#kotlin.Int#kotlin.Float/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-touch-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoTypeEvent/#android.view.KeyEvent#kotlin.Int/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-type-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoTypeEvent/#java.awt.event.InputMethodEvent#java.awt.event.KeyEvent?/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-type-event.html
 $dokka.location:org.jetbrains.skiko//toSkikoTypeEvent/#java.awt.event.KeyEvent#java.awt.event.KeyEvent?/PointingToDeclaration/skiko/org.jetbrains.skiko/to-skiko-type-event.html
@@ -2626,7 +2624,6 @@ $dokka.location:org.jetbrains.skiko/GenericSkikoView/onInputEvent/#org.jetbrains
 $dokka.location:org.jetbrains.skiko/GenericSkikoView/onKeyboardEvent/#org.jetbrains.skiko.SkikoKeyboardEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-generic-skiko-view/on-keyboard-event.html
 $dokka.location:org.jetbrains.skiko/GenericSkikoView/onPointerEvent/#org.jetbrains.skiko.SkikoPointerEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-generic-skiko-view/on-pointer-event.html
 $dokka.location:org.jetbrains.skiko/GenericSkikoView/onRender/#org.jetbrains.skia.Canvas#kotlin.Int#kotlin.Int#kotlin.Long/PointingToDeclaration/skiko/org.jetbrains.skiko/-generic-skiko-view/on-render.html
-$dokka.location:org.jetbrains.skiko/GenericSkikoView/onTouchEvent/#kotlin.Array[org.jetbrains.skiko.SkikoTouchEvent]/PointingToDeclaration/skiko/org.jetbrains.skiko/-generic-skiko-view/on-touch-event.html
 $dokka.location:org.jetbrains.skiko/GpuPriority.Auto///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-gpu-priority/-auto/index.html
 $dokka.location:org.jetbrains.skiko/GpuPriority.Companion///PointingToDeclaration/skiko/org.jetbrains.skiko/-gpu-priority/-companion/index.html
 $dokka.location:org.jetbrains.skiko/GpuPriority.Companion/parseOrNull/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-gpu-priority/-companion/parse-or-null.html
@@ -2957,6 +2954,22 @@ $dokka.location:org.jetbrains.skiko/SkikoKeyboardEventKind.UP///PointingToDeclar
 $dokka.location:org.jetbrains.skiko/SkikoKeyboardEventKind///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-keyboard-event-kind/index.html
 $dokka.location:org.jetbrains.skiko/SkikoKeyboardEventKind/valueOf/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-keyboard-event-kind/value-of.html
 $dokka.location:org.jetbrains.skiko/SkikoKeyboardEventKind/values/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-keyboard-event-kind/values.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/index.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/debug/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/debug.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/debug/#kotlin.Throwable#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/debug.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/error/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/error.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/error/#kotlin.Throwable#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/error.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/info/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/info.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/info/#kotlin.Throwable#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/info.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/isDebugEnabled/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/is-debug-enabled.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/isErrorEnabled/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/is-error-enabled.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/isInfoEnabled/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/is-info-enabled.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/isTraceEnabled/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/is-trace-enabled.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/isWarnEnabled/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/is-warn-enabled.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/trace/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/trace.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/trace/#kotlin.Throwable#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/trace.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/warn/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/warn.html
+$dokka.location:org.jetbrains.skiko/SkikoLoggerInterface/warn/#kotlin.Throwable#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-logger-interface/warn.html
 $dokka.location:org.jetbrains.skiko/SkikoMouseButtons.Companion///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-mouse-buttons/-companion/index.html
 $dokka.location:org.jetbrains.skiko/SkikoMouseButtons.Companion/BUTTON_1/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-mouse-buttons/-companion/-b-u-t-t-o-n_1.html
 $dokka.location:org.jetbrains.skiko/SkikoMouseButtons.Companion/BUTTON_2/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-mouse-buttons/-companion/-b-u-t-t-o-n_2.html
@@ -2978,14 +2991,29 @@ $dokka.location:org.jetbrains.skiko/SkikoMouseButtons/value/#/PointingToDeclarat
 $dokka.location:org.jetbrains.skiko/SkikoPlatformInputEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-platform-input-event/index.html
 $dokka.location:org.jetbrains.skiko/SkikoPlatformKeyboardEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-platform-keyboard-event/index.html
 $dokka.location:org.jetbrains.skiko/SkikoPlatformPointerEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-platform-pointer-event/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/SkikoPointer/#kotlin.Long#kotlin.Double#kotlin.Double#kotlin.Boolean#org.jetbrains.skiko.SkikoPointerDevice#kotlin.Double/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/-skiko-pointer.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/device/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/device.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/id/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/id.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/pressed/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/pressed.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/pressure/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/pressure.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/x/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/x.html
+$dokka.location:org.jetbrains.skiko/SkikoPointer/y/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer/y.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice.MOUSE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-pointer-device/-m-o-u-s-e/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice.TOUCH///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-pointer-device/-t-o-u-c-h/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice.UNKNOWN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-pointer-device/-u-n-k-n-o-w-n/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-device/index.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice/valueOf/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-device/value-of.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerDevice/values/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-device/values.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/index.html
-$dokka.location:org.jetbrains.skiko/SkikoPointerEvent/SkikoPointerEvent/#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#org.jetbrains.skiko.SkikoMouseButtons#org.jetbrains.skiko.SkikoMouseButtons#org.jetbrains.skiko.SkikoInputModifiers#org.jetbrains.skiko.SkikoPointerEventKind#kotlin.Long#org.jetbrains.skiko.SkikoPlatformPointerEvent?/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/-skiko-pointer-event.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerEvent/SkikoPointerEvent/#kotlin.Double#kotlin.Double#org.jetbrains.skiko.SkikoPointerEventKind#kotlin.Double#kotlin.Double#org.jetbrains.skiko.SkikoMouseButtons#org.jetbrains.skiko.SkikoMouseButtons#org.jetbrains.skiko.SkikoInputModifiers#kotlin.Long#kotlin.collections.List[org.jetbrains.skiko.SkikoPointer]#org.jetbrains.skiko.SkikoPlatformPointerEvent?/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/-skiko-pointer-event.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/button/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/button.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/deltaX/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/delta-x.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/deltaY/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/delta-y.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/kind/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/kind.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/modifiers/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/modifiers.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/platform/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/platform.html
+$dokka.location:org.jetbrains.skiko/SkikoPointerEvent/pointers/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/pointers.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/pressedButtons/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/pressed-buttons.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/timestamp/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/timestamp.html
 $dokka.location:org.jetbrains.skiko/SkikoPointerEvent/x/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-pointer-event/x.html
@@ -3018,26 +3046,10 @@ $dokka.location:org.jetbrains.skiko/SkikoSurfaceView/onKeyDown/#kotlin.Int#andro
 $dokka.location:org.jetbrains.skiko/SkikoSurfaceView/onKeyUp/#kotlin.Int#android.view.KeyEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-surface-view/on-key-up.html
 $dokka.location:org.jetbrains.skiko/SkikoSurfaceView/onTouchEvent/#android.view.MotionEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-surface-view/on-touch-event.html
 $dokka.location:org.jetbrains.skiko/SkikoSurfaceView/scheduleFrame/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-surface-view/schedule-frame.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/SkikoTouchEvent/#kotlin.Double#kotlin.Double#org.jetbrains.skiko.SkikoTouchEventKind#kotlin.Long#org.jetbrains.skiko.SkikoTouchPlatformEvent?/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/-skiko-touch-event.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/kind/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/kind.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/platform/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/platform.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/timestamp/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/timestamp.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/x/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/x.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEvent/y/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event/y.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind.CANCELLED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-touch-event-kind/-c-a-n-c-e-l-l-e-d/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind.ENDED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-touch-event-kind/-e-n-d-e-d/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind.MOVED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-touch-event-kind/-m-o-v-e-d/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind.STARTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-touch-event-kind/-s-t-a-r-t-e-d/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind.UNKNOWN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}skiko/org.jetbrains.skiko/-skiko-touch-event-kind/-u-n-k-n-o-w-n/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event-kind/index.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind/valueOf/#kotlin.String/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event-kind/value-of.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchEventKind/values/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-event-kind/values.html
-$dokka.location:org.jetbrains.skiko/SkikoTouchPlatformEvent///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-touch-platform-event/index.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/index.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/SkikoUIView/#[Error type: Unresolved type for NSCoder]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/-skiko-u-i-view.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/SkikoUIView/#kotlinx.cinterop.CValue[[Error type: Unresolved type for CGRect]]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/-skiko-u-i-view.html
-$dokka.location:org.jetbrains.skiko/SkikoUIView/SkikoUIView/#org.jetbrains.skiko.SkiaLayer#kotlinx.cinterop.CValue[[Error type: Unresolved type for CGRect]]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/-skiko-u-i-view.html
+$dokka.location:org.jetbrains.skiko/SkikoUIView/SkikoUIView/#org.jetbrains.skiko.SkiaLayer#kotlinx.cinterop.CValue[[Error type: Unresolved type for CGRect]]#kotlin.Function2[[Error type: Unresolved type for Point],[Error type: Unresolved type for UIEvent]?,kotlin.Boolean]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/-skiko-u-i-view.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/autocapitalizationType/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/autocapitalization-type.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/autocorrectionType/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/autocorrection-type.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/baseWritingDirectionForPosition/#[Error type: Unresolved type for UITextPosition]#[Error type: Unresolved type for UITextStorageDirection]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/base-writing-direction-for-position.html
@@ -3083,6 +3095,7 @@ $dokka.location:org.jetbrains.skiko/SkikoUIView/markedTextRange/#/PointingToDecl
 $dokka.location:org.jetbrains.skiko/SkikoUIView/markedTextStyle/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/marked-text-style.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/offsetFromPosition/#[Error type: Unresolved type for UITextPosition]#[Error type: Unresolved type for UITextPosition]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/offset-from-position.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/paste/#kotlin.Any?/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/paste.html
+$dokka.location:org.jetbrains.skiko/SkikoUIView/pointInside/#kotlinx.cinterop.CValue[[Error type: Unresolved type for CGPoint]]#[Error type: Unresolved type for UIEvent]?/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/point-inside.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/positionFromPosition/#[Error type: Unresolved type for UITextPosition]#[Error type: Unresolved type for NSInteger]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/position-from-position.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/positionFromPosition/#[Error type: Unresolved type for UITextPosition]#[Error type: Unresolved type for UITextLayoutDirection]#[Error type: Unresolved type for NSInteger]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/position-from-position.html
 $dokka.location:org.jetbrains.skiko/SkikoUIView/positionWithinRange/#[Error type: Unresolved type for UITextRange]#[Error type: Unresolved type for NSInteger]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-u-i-view/position-within-range.html
@@ -3124,7 +3137,6 @@ $dokka.location:org.jetbrains.skiko/SkikoView/onInputEvent/#org.jetbrains.skiko.
 $dokka.location:org.jetbrains.skiko/SkikoView/onKeyboardEvent/#org.jetbrains.skiko.SkikoKeyboardEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view/on-keyboard-event.html
 $dokka.location:org.jetbrains.skiko/SkikoView/onPointerEvent/#org.jetbrains.skiko.SkikoPointerEvent/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view/on-pointer-event.html
 $dokka.location:org.jetbrains.skiko/SkikoView/onRender/#org.jetbrains.skia.Canvas#kotlin.Int#kotlin.Int#kotlin.Long/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view/on-render.html
-$dokka.location:org.jetbrains.skiko/SkikoView/onTouchEvent/#kotlin.Array[org.jetbrains.skiko.SkikoTouchEvent]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view/on-touch-event.html
 $dokka.location:org.jetbrains.skiko/SkikoViewController///PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view-controller/index.html
 $dokka.location:org.jetbrains.skiko/SkikoViewController/SkikoViewController/#/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view-controller/-skiko-view-controller.html
 $dokka.location:org.jetbrains.skiko/SkikoViewController/SkikoViewController/#[Error type: Unresolved type for NSCoder]/PointingToDeclaration/skiko/org.jetbrains.skiko/-skiko-view-controller/-skiko-view-controller.html
